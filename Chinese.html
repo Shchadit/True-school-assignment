@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+ <title>中文意思</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>返回查看更多信息</h2>
+  <div class="image-container">
+    <!-- 替换为你自己的图片文件名 -->
+    <img src="中文意思.png" alt="中文意思.png" width="660" />
+     <!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+       </div>
+</body>
+</html>

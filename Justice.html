@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+ <title>正义？</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>点击红点查看更多信息</h2>
+<p>曼吉奥内被捕时，身上搜出一份宣言（Manifesto），其中痛诉医疗保健公司将利润置于医疗之上的恶劣行径，<strong>“这些寄生虫罪有应得。”</strong></p>
+  <div class="image-container">
+    <!-- 替换为你自己的图片文件名 -->
+    <img src="宣言.jpg" alt="宣言.jpg" width="660" />
+        <!-- 标记点1：呼声 -->
+    <a href="Voice.html" class="marker" style="top: 755px; left: 490px;"></a>
+    <div class="tooltip" style="top: 750px; left: 515px;">呼声</div>
+    <!-- 标记点2：讽刺 -->
+    <a href="Satire.html" class="marker" style="top: 755px; left: 185px;"></a>
+    <div class="tooltip" style="top: 750px; left: 210px;">讽刺</div>
+    <!-- 标记点3：中文意思 -->
+    <a href="Chinese.html" class="marker" style="top: 685px; left: 205px;"></a>
+    <div class="tooltip" style="top: 680px; left: 230px;">中文意思</div>
+   <!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+       </div>
+</body>
+</html>

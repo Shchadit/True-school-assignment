@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+ <title>后续调查</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>点击红点查看更多信息</h2>
+  <div class="image-container">
+    <!-- 替换为你自己的图片文件名 -->
+    <img src="笑容.webp" alt="笑容.webp" width="660" />
+    <p>12月5日傍晚，警方公布的监控视频截图首次暴露枪手真容，其中一张面露笑容  </p>
+    <img src="弹壳.webp" alt="弹壳.webp" width="660" />
+    <!-- 标记点1：水落石出 -->
+    <a href="Uncover_the_truth.html" class="marker" style="top: 255px; left: 300px;"></a>
+    <div class="tooltip" style="top: 250px; left: 325px;">水落石出</div>
+   <!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+  <p> 此外，在案发现场发现的多枚9毫米子弹弹壳上，写着“Deny（否认）、Defend（辩护）、Depose（废除）”</p>
+<p>与2010 年出版的严厉批评美国保险行业的《Delay, Deny, Defend》的书名相似</p>
+<p>侧面反映了凶手对于该行业的态度</p>
+     </div>
+</body>
+</html>

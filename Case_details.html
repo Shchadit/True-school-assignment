@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+ <title>案件详情</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>点击红点查看更多信息</h2>
+  <div class="image-container">
+    <!-- 替换为你自己的图片文件名 -->
+    <img src="汤普森遇刺2.jpg" alt="汤普森遇刺2.jpg" width="660" />
+    <p>  </p>
+    <img src="枪击逃跑.webp" alt="枪击逃跑.webp" width="660" />
+    <!-- 标记点1：后续调查 -->
+    <a href="Subsequent_investigation.html" class="marker" style="top: 575px; left: 160px;"></a>
+    <div class="tooltip" style="top: 570px; left: 185px;">后续调查</div>
+   <!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+  <p> 根据当天的监控录像，一名在酒店外事先等候的蒙面枪手（黑衣）</p>
+<p>在布莱恩·汤普森（着蓝色上装）身后向其连开数枪，随后骑自行车逃离现场</p>
+     </div>
+</body>
+</html>

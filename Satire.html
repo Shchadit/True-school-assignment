@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+ <title>讽刺</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>返回查看更多信息</h2>
+  <div class="image-container">
+    <!-- 替换为你自己的图片文件名 -->
+        <img src="悼念与嘲讽.png" alt="悼念与嘲讽.png" width="660" />
+      <!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+  <p>12月5日，联合健康集团官方账号在社交媒体上发文悼念汤普森</p>
+<p>然而讽刺的是，在该文的评论区内充满了对汤普森的嘲讽</p>
+<p>联合健康集团不得不关闭了文章评论区</p>
+<p>从中可以看出美国民众对于联合健康集团的痛恨</p>
+     </div>
+</body>
+</html>

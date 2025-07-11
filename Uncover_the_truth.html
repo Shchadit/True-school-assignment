@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+ <title>水落石出</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>点击红点查看更多信息</h2>
+  <div class="image-container">
+    <!-- 替换为你自己的图片文件名 -->
+    <img src="路易吉.jpg" alt="路易吉.jpg" width="660" />
+    <p>最终，警方将1998年出生的路易吉·尼古拉斯·曼吉奥内确定为本案嫌疑人 </p>
+    <img src="路易吉被捕.png" alt="路易吉被捕.png" width="660" />
+    <!-- 标记点1：人物介绍 -->
+    <a href="Luigi_Nicholas_Mangione.html" class="marker" style="top: 275px; left: 390px;"></a>
+    <div class="tooltip" style="top: 270px; left: 415px;">路易吉·尼古拉斯·曼吉奥内</div>
+    <!-- 标记点2：正义？ -->
+    <a href="Justice.html" class="marker" style="top: 655px; left: 405px;"></a>
+    <div class="tooltip" style="top: 650px; left: 430px;">正义？</div>
+   <!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+  <p> 12月9日，路易吉在宾夕法尼亚州的一家麦当劳内被一名店员举报，很快遭到警方逮捕</p>
+<p>随后以伪造罪、无证携带枪支罪、篡改记录或身份信息罪、持有犯罪工具以及向执法部门提供虚假身份5项罪名被正式起诉</p>
+<p>当天，路易吉在宾夕法尼亚州短暂出庭后被裁定不得保释</p>
+     </div>
+</body>
+</html>

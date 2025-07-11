@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+ <title>呼声</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>点击红点查看更多信息</h2>
+  <div class="image-container">
+    <!-- 替换为你自己的图片文件名 -->
+    <img src="声援路易吉.webp" alt="声援路易吉.webp" width="660" />
+    <p>路易吉被捕后，痛恨联合健康保险公司的美国民众们表示深切同情，纷纷声援路易吉 </p>
+    <img src="律师.jpg" alt="律师.jpg" width="660" />
+    <!-- 标记点1：终局？ -->
+    <a href="Final.html" class="marker" style="top: 255px; left: 300px;"></a>
+    <div class="tooltip" style="top: 250px; left: 325px;">终局？</div>
+   <!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+  <p> 美国顶级刑事律师托马斯·迪基（Thomas Dickey）被聘为曼吉奥内在宾夕法尼亚州的辩护律师，他将借助舆论为其展开“无罪辩护”。</p>
+     </div>
+</body>
+</html>
